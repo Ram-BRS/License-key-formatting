@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>License Key Formatter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>License Key Formatter</h2>
+    <label for="licenseKey">Enter License Key:</label>
+    <input type="text" id="licenseKey" placeholder="e.g., 5F3Z-2e-9-w">
+
+    <br><br>
+
+    <label for="groupSize">Enter Group Size (k):</label>
+    <input type="number" id="groupSize" placeholder="e.g., 4">
+
+    <br><br>
+
+    <button onclick="formatLicenseKey()">Format</button>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
